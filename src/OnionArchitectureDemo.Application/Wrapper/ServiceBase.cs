@@ -14,5 +14,10 @@ namespace OnionArchitectureDemo.Application.Wrapper
         {
             Value = value;
         }
+
+        public ServiceResponse()
+        {
+                
+        }
     }
 }

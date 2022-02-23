@@ -17,7 +17,7 @@ namespace OnionArchitectureDemo.Infrastructure
         {
             services.AddDbContext<ApplicationDbContext>(opt => opt.UseInMemoryDatabase("memoryDb"));
 
-            services.AddTransient<IUserRepository, EfUserRepository>();
+            services.AddTransient<IProductRepository, EfProductRepository>();
         }
     }
 }

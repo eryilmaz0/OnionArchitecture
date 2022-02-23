@@ -12,8 +12,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="ViewModels\" />
     <Folder Include="MapperProfile\" />
     <Folder Include="Exception\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="ResponseObjects\" />
+    <Folder Include="Queries\" />
   </ItemGroup>
 
   <ItemGroup>
